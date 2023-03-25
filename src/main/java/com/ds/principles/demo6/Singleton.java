@@ -1,10 +1,13 @@
 package com.ds.principles.demo6;
 
 
+import java.awt.*;
+import java.io.Serializable;
+
 /**
  * 静态内部类
  */
-public class Singleton {
+public class Singleton implements Serializable {
 
         private Singleton(){};
 
@@ -16,6 +19,15 @@ public class Singleton {
         //提供公共的访问方式
         public  static  Singleton getInstance(){
                 return SingletonHolder.instance;
+        }
+
+
+        /**
+         * 反序列化的时候自动调用该方法，
+         * @return
+         */
+        public  Object readResolve(){
+           return SingletonHolder.instance;
         }
 
 }

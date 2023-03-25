@@ -20,4 +20,12 @@ public class Singleton  implements Serializable {
                 return SingletonHolder.instance;
         }
 
+        /**
+         * 反序列化的时候自动调用该方法，
+         * @return
+         */
+        public  Object readResolve(){
+                return SingletonHolder.instance;
+        }
+
 }
