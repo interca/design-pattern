@@ -1,4 +1,4 @@
-package com.ds.principles.demo3;
+package com.ds.singleton.demo3;
 
 /**
  * 懒汉式双重检查锁

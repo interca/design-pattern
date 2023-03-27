@@ -1,4 +1,4 @@
-package com.ds.principles.demo5;
+package com.ds.singleton.demo5;
 
 
 import java.io.*;

@@ -1,4 +1,4 @@
-package com.ds.principles.demo2;
+package com.ds.singleton.demo2;
 
 /**
  * 懒汉式创建数据库

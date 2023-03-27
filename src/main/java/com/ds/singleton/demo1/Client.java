@@ -1,4 +1,4 @@
-package com.ds.principles.demo1;
+package com.ds.singleton.demo1;
 
 
 import org.testng.annotations.Test;

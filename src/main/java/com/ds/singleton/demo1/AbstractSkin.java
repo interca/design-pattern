@@ -1,4 +1,4 @@
-package com.ds.principles.demo1;
+package com.ds.singleton.demo1;
 
 /**
  * 抽象皮肤类

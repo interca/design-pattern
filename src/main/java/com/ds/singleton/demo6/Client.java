@@ -1,4 +1,4 @@
-package com.ds.principles.demo6;
+package com.ds.singleton.demo6;
 
 
 import java.lang.reflect.Constructor;
