@@ -1,4 +1,4 @@
-package com.ds.proxy.static_proxy;
+package com.ds.proxy.jdk_proxy;
 
 
 /**
