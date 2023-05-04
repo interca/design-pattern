@@ -28,6 +28,7 @@ public class ProxyFactory {
                     }
                 }
         );
+        System.out.println("ssss");
       return proxyObject;
     }
 }

@@ -8,4 +8,7 @@ package com.ds.proxy.jdk_proxy;
 public interface SellTickets {
 
     void sell();
+
+
+    void sell2();
 }

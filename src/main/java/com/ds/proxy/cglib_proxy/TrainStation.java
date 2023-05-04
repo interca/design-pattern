@@ -1,14 +1,15 @@
-package com.ds.proxy.jdk_proxy;
+package com.ds.proxy.cglib_proxy;
 
+/**
+ * cglib代理
+ */
+public class TrainStation {
 
-public class TrainStation implements SellTickets {
-    @Override
     public void sell() {
         System.out.println("火车站卖火车票");
 
     }
 
-    @Override
     public void sell2() {
         System.out.println("打折");
 

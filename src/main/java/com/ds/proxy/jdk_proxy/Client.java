@@ -8,5 +8,6 @@ public class Client {
         //获取代理对象
         SellTickets proxyObject = proxyFactory.getProxyObject();
         proxyObject.sell();
+        proxyObject.sell2();
     }
 }
